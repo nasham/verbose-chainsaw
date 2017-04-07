@@ -49,7 +49,7 @@ nnoremap <space> za
 
 Plugin 'tmhedberg/SimpylFold'
 "Plugin 'Valloric/YouCompleteMe'
-Bundle 'Valloric/YouCompleteMe'
+"Bundle 'Valloric/YouCompleteMe'
 Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 
@@ -67,8 +67,8 @@ set mouse=a
 
 colorscheme murphy 
 
-let g:ycm_autoclose_preview_window_after_completion=1
-map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
+"let g:ycm_autoclose_preview_window_after_completion=1
+"map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 
      set tabstop=4
      set softtabstop=4
