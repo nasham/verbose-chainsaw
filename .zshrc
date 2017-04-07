@@ -84,4 +84,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Add alias file '~/.aliases'. This file works both in bash and Zsh
+source ~/.aliases
+
 unsetopt share_history
